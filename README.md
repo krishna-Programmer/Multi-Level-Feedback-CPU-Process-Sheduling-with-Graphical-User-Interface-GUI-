@@ -33,3 +33,6 @@ After Completion of all Processes following information needs to be tracked
 4)Process Turnaround Time
 5)Process Waiting Time
 Formulae:
+Process Response Time=Process Arrival Time - Process Start Time
+Process Turnaround Time=Process Completion Time - Process Arrival Time
+Process Waiting Time=Process Completion Time - Process Burst Time
