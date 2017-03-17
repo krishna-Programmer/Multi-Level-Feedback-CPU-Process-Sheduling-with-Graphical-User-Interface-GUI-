@@ -32,3 +32,4 @@ After Completion of all Processes following information needs to be tracked
 3)Process Completion Time
 4)Process Turnaround Time
 5)Process Waiting Time
+Formulae:
