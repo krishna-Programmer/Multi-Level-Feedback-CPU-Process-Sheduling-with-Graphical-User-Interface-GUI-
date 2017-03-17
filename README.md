@@ -26,3 +26,9 @@ Other way is user needs to enter the following data
 2)Process Burst Time Range
 3)Process Arrival Time Range
 Then the program creates processes randomly.
+After Completion of all Processes following information needs to be tracked
+1)Process Start Time
+2)Process Response Time
+3)Process Completion Time
+4)Process Turnaround Time
+5)Process Waiting Time
