@@ -8,6 +8,8 @@ When a Process is arrived it moves to Queue Q0
 In Q0 the process runs until its completion but not more than 10ms,if the process is not completed with in 10ms it is moved to Queue Q1. 
 In Q1 the process runs until its completion but not more than 20ms,if the process is not completed with in 20ms it is moved to Queue Q2.
 In Q2 the process runs until its completion.
+The processes in Q1 executes only when the processes in Q0 are empty.
+The processes in Q2 executes only when the processes in both Q0 and Q1 are empty.
 Each process should be created with following information
 1)Process ID
 2)Process Burst Time
