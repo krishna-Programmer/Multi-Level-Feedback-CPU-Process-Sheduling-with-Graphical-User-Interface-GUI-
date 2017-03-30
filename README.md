@@ -1,10 +1,10 @@
-# Multi-Level-Feedback-CPU-Process-Sheduling-with-Graphical-User-Interface-GUI-
+# Multi-Level-Feedback-CPU-Process-Sheduling-with-Graphical-User-Interface(GUI)
 Multi Level Feedback CPU Process Scheduling with Graphical User Interface(GUI).
 There are Three levels of Priority in total.
 In First level Queue of Processes Each process is assigned a round robbin time of 10ms.
 In Second level Queue of Processes Each process is assigned a round robbin time of 20ms.
 In Third level Queue of Processes Each process executes till completion based on First Come First Serve.
-When a Process is arrived it moves to Queue Q0
+When a Process is arrived it moves to Queue Q0.
 In Q0 the process runs until its completion but not more than 10ms,if the process is not completed with in 10ms it is moved to Queue Q1. 
 In Q1 the process runs until its completion but not more than 20ms,if the process is not completed with in 20ms it is moved to Queue Q2.
 In Q2 the process runs until its completion.
@@ -27,9 +27,9 @@ Other way is user needs to enter the following data
 3)Process Arrival Time Range
 Then the program creates processes randomly.
 After Completion of all Processes following information needs to be tracked
-1)Process Start Time
+1)Process Start Time(time when cpu time is allocated for first time for the process or we can say when the process execution starts for first time)
 2)Process Response Time
-3)Process Completion Time
+3)Process Completion Time(time when process execution is completed)
 4)Process Turnaround Time
 5)Process Waiting Time
 Formulae:
