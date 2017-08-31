@@ -1,4 +1,4 @@
-# Multi-Level-Feedback-CPU-Process-Sheduling-with-Graphical-User-Interface(GUI)
+<pre># Multi-Level-Feedback-CPU-Process-Sheduling-with-Graphical-User-Interface(GUI)
 Multi Level Feedback CPU Process Scheduling with Graphical User Interface(GUI).
 There are Three levels of Priority in total.
 In First level Queue of Processes Each process is assigned a round robbin time of 10ms.
@@ -36,3 +36,4 @@ Formulae:
 Process Response Time=Process Arrival Time - Process Start Time
 Process Turnaround Time=Process Completion Time - Process Arrival Time
 Process Waiting Time=Process Completion Time - Process Burst Time
+</pre>
